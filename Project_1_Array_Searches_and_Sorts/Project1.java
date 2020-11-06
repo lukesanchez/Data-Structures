@@ -20,15 +20,13 @@ import java.util.Scanner;
 public class Project1{
 	
 	public static void main(String[] args) throws IOException {
-				boolean loop = true; 
-				
+			boolean loop = true; 
+			
 		    	Country[] nations = parseCSV();
 		    	
 		    	while (loop) {
 		    		loop = userSelection(nations);
-		    
 		    	}
-		    	
 	} //end main
 	
 	public static Country[] parseCSV() throws FileNotFoundException, IOException {
