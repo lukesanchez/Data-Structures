@@ -6,5 +6,5 @@ Each reordering method uses a different sorting algorithm.
 Example Output:
 
  <p align="left">
-  <img width="910" height="455" src="https://raw.githubusercontent.com/lukesanchez/Data-Structures/main/Project_1_Array_Searches_and_Sorts/Project1_Example_Output.png">
+  <img width="100%" height="100%" src="https://raw.githubusercontent.com/lukesanchez/Data-Structures/main/Project_1_Array_Searches_and_Sorts/Project1_Example_Output.png">
 </p> 
