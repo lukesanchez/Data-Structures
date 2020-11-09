@@ -111,7 +111,7 @@ public class Project2 {
 			else if(state.getC19CFR() >= 0.10)
 				poor.insert(state);
 	    }
-		System.out.println("There were " + Country.getNumCountries() + " records read.");
-		br.close();
+	System.out.println("There were " + Country.getNumCountries() + " records read.");
+	br.close();
 	} //end parseCSV
 }//end project2
