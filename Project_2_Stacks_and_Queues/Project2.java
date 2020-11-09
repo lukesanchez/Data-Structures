@@ -12,8 +12,6 @@
 * @version Oct. 3, 2020
 */
 
-
-
 import java.io.*;
 
 public class Project2 {
@@ -56,7 +54,7 @@ public class Project2 {
 			countryStack.push(fair.remove());
 		}
 		
-        while (!good.isEmpty()) {
+       	while (!good.isEmpty()) {
  		countryStack.push(good.remove());
 		}
 		
@@ -64,21 +62,19 @@ public class Project2 {
 			countryStack.push(vGood.remove());
 		}
 
-		
 		while (!excellent.isEmpty()) {
 			countryStack.push(excellent.remove());
 		}
 		
 		System.out.println("\nStack Contents:");
 		countryStack.printStack();
-		
 	} //end main
 	
 	
 	public static void parseCSV(Priority excellent, Priority vGood, Priority good,
 								Priority fair, Priority poor) throws FileNotFoundException, IOException {
 			
-		File inputFile = new File("Countries2.csv");
+	    File inputFile = new File("Countries2.csv");
 		
 	    if (!inputFile.exists())
 	    	System.out.println("\nThat file does not exist!");
@@ -89,7 +85,7 @@ public class Project2 {
 		br.readLine(); //skips first line of file.   
 	    String line = null;
 	    while ((line = br.readLine()) != null) {
-	        String[] values = line.split(",");
+	    	String[] values = line.split(",");
             String name = values[0];
             String capital = values[1];
             String population = values[2];
@@ -98,7 +94,7 @@ public class Project2 {
             String c19Deaths = values[5];
             
 			Country state = new Country(name, capital, Long.parseLong(population), Double.parseDouble(gdp),
-            							Integer.parseInt(c19Cases), Integer.parseInt(c19Deaths));
+            					    	Integer.parseInt(c19Cases), Integer.parseInt(c19Deaths));
 			
 			if(state.getC19CFR() < 0.01)
 				excellent.insert(state);
@@ -114,7 +110,6 @@ public class Project2 {
 			
 			else if(state.getC19CFR() >= 0.10)
 				poor.insert(state);
-		
 	    }
 		System.out.println("There were " + Country.getNumCountries() + " records read.");
 		br.close();
