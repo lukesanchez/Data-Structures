@@ -82,7 +82,7 @@ public class Country {
 	  }
 	  
 
-	public void setName(String newName) {
+	  public void setName(String newName) {
 		  this.name = newName; 
 	  }
 	  
@@ -129,8 +129,3 @@ public class Country {
 		    return str;
 	  }
 }// end Country Class
-
-	  
-	  
-	  
-	  
