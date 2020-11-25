@@ -1,1 +1,7 @@
+### Project 4 - Binary Search Trees ###
+Project 4 implements a Binary Search Tree (BST) of Country objects using Nodes. 153 Countries are parsed from a CSV file, and then are ingested into the BST, with Country objects sorted alphabetically. Once every country is inserted into the tree, each Country object is printed inorder, preoreder, then postorder with countries being deleted and found with the corresponding methods. 
 
+Example Output:
+ <p align="left">
+  <img width="100%" height="100%" src="https://raw.githubusercontent.com/lukesanchez/Data-Structures/main/Project_3_Linked_lists/Project_3_Example_Output.png">
+</p> 
