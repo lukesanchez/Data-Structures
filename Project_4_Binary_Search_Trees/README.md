@@ -3,5 +3,5 @@ Project 4 implements a Binary Search Tree (BST) made up of Country Nodes. 153 Co
 
 Example Output:
  <p align="left">
-  <img width="100%" height="100%" src="https://raw.githubusercontent.com/lukesanchez/Data-Structures/main/Project_4_Binary_Search_Trees/Project4_Example_Output.png">
+  <img width="65%" height="100%" src="https://raw.githubusercontent.com/lukesanchez/Data-Structures/main/Project_4_Binary_Search_Trees/Project4_Example_Output.png">
 </p> 
